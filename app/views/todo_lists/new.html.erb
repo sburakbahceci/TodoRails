@@ -1,5 +1,10 @@
-<h1>New Todo List</h1>
+<h1 class="todo_list_title">Yeni Yapılacaklar Listesi</h1>
+<div class="forms">
+    <%= render 'form' %>
+</div>
+<div class="links">
+    <%= link_to 'Geri', todo_lists_path %>
+</div>
 
-<%= render 'form', todo_list: @todo_list %>
 
-<%= link_to 'Back', todo_lists_path %>
+
